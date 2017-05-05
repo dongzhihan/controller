@@ -8,16 +8,14 @@ import $ from 'jquery';
 import {
   Field,
 } from 'mint-ui';
-import ElementUI from 'element-ui';
 import Vue from 'vue';
 import FastClick from 'fastclick';
 import VueRouter from 'vue-router';
-import App from './App';
-import router from './router/index.js';
+import App from './App.vue';
+import router from './router/index';
 
 require('babel-polyfill');
 
-Vue.use(ElementUI);
 Vue.use(VueRouter);
 // axios  http请求类
 Vue.prototype.$http = axios;

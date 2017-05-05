@@ -18,6 +18,7 @@
     "element-ui": "^1.2.5",
     "eslint-plugin-html": "^2.0.1",
     "fastclick": "^1.0.6",
+    "flexible": "^0.1.20",
     "jquery": "^3.2.1",
     "lib-flexible": "^0.3.2",
     "mint-ui": "^2.2.1",
